@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Behavioral.TemplateMethod;
+﻿namespace DesignPattern.Gof_Behavioral.TemplateMethod;
 
 public abstract class ReportGenerator
 {

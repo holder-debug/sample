@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Creational.FactoryMethod;
+﻿namespace DesignPattern.Gof_Creational.FactoryMethod;
 
 
 public interface INotifyFactory

@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Behavioral.Visitor;
+﻿namespace DesignPattern.Gof_Behavioral.Visitor;
 
 public interface IPayment
 {

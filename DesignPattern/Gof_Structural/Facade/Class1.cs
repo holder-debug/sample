@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Structural.Facade;
+﻿namespace DesignPattern.Gof_Structural.Facade;
 
 
 

@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Structural.Adapter;
+﻿namespace DesignPattern.Gof_Structural.Adapter;
 
 public interface ISmsService
 {

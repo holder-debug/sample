@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Creational.AbstractFactory;
+﻿namespace DesignPattern.Gof_Creational.AbstractFactory;
 
 public interface IButton { }
 public interface IRadio { }

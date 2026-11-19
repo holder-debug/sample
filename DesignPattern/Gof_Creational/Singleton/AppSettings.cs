@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Creational.Singleton;
+﻿namespace DesignPattern.Gof_Creational.Singleton;
 
 public class AppSettings
 {

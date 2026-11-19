@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Gof.Creational.Prototype;
+﻿namespace DesignPattern.Gof_Creational.Prototype;
 
 public class Employee:ICloneable
 {
