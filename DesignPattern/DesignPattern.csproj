@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Gof\Behavioral\ChainOfResponsibility\" />
+    <Folder Include="Gof\Behavioral\Command\" />
+    <Folder Include="Gof\Behavioral\Interpreter\" />
+    <Folder Include="Gof\Behavioral\Iterator\" />
+    <Folder Include="Gof\Behavioral\Mediator\" />
+    <Folder Include="Gof\Behavioral\Memento\" />
+    <Folder Include="Gof\Behavioral\Observer\" />
+    <Folder Include="Gof\Behavioral\State\" />
+    <Folder Include="Gof\Structural\Bridge\" />
+    <Folder Include="Gof\Structural\Composite\" />
+    <Folder Include="Gof\Structural\Decorator\" />
+    <Folder Include="Gof\Structural\Flyweight\" />
+    <Folder Include="Gof\Structural\Proxy\" />
+  </ItemGroup>
+
+</Project>

@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace DesignPattern.Creational.AbstractFactory;
+﻿namespace DesignPattern.Gof.Creational.AbstractFactory;
 
 public interface IButton { }
 public interface IRadio { }

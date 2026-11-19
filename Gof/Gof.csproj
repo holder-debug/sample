@@ -7,20 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Behavioral\ChainOfResponsibility\" />
-    <Folder Include="Behavioral\Command\" />
-    <Folder Include="Behavioral\Interpreter\" />
-    <Folder Include="Behavioral\Iterator\" />
-    <Folder Include="Behavioral\Mediator\" />
-    <Folder Include="Behavioral\Memento\" />
-    <Folder Include="Behavioral\Observer\" />
-    <Folder Include="Behavioral\State\" />
-    <Folder Include="Behavioral\Visitor\" />
-    <Folder Include="Structural\Composite\" />
-    <Folder Include="Structural\Decorator\" />
-    <Folder Include="Structural\Flyweight\" />
-    <Folder Include="Structural\Proxy\" />
-  </ItemGroup>
-
 </Project>

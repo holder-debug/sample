@@ -1,4 +1,7 @@
-﻿using Gof.Structural.Facade;
+﻿using Gof.Behavioral.Visitor;
+using Gof.Other;
+using Gof.Structural.Facade;
+using IAnimal = Gof.Behavioral.Visitor.IAnimal;
 
 namespace Gof;
 
@@ -6,48 +9,23 @@ internal class Program
 {
     static void Main()
     {
-    }
-}
+        IAnimal[] animals =
+        {
+            new Gof.Behavioral.Visitor.Cat(),
+            new Gof.Behavioral.Visitor.Dog()
+        };
 
-public abstract class Animal
-{
-    public abstract void Accept(AnimalOperation operation);
-}
+        IAnimalVisitor soundVisitor = new MakeSoundVisitor();
+        IAnimalVisitor costVisitor = new CalculateCostVisitor();
 
-public class Dog : Animal
-{
-    public override void Accept(AnimalOperation operation)
-    {
-        string fullName = this.GetType().FullName;
-        operation.Execute(this);
-    }
-}
-public class Cat : Animal
-{
-    public override void Accept(AnimalOperation operation)
-    {
-        string fullName = this.GetType().FullName;
-        operation.Execute(this);
-    }
-}
+        foreach (var animal in animals)
+        {
+            animal.Accept(soundVisitor);
+        }
 
-
-
-
-public class AnimalOperation
-{
-    public void Execute(Animal animal)
-    {
-        Console.WriteLine("Animal operation");
-    }
-
-    public void Execute(Dog dog)
-    {
-        Console.WriteLine("Dog operation");
-    }
-
-    public void Execute(Cat cat)
-    {
-        Console.WriteLine("Cat operation");
+        foreach (var animal in animals)
+        {
+            animal.Accept(costVisitor);
+        }
     }
 }

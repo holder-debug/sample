@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Builder;
+﻿namespace DesignPattern.Gof.Creational.Builder;
 
 public class Caller
 {

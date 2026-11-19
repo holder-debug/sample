@@ -1,6 +1,4 @@
-﻿using DesignPattern.Creational.Builder;
-
-namespace DesignPattern.Creational.Prototype;
+﻿namespace DesignPattern.Gof.Creational.Prototype;
 
 public class Employee:ICloneable
 {

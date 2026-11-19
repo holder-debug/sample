@@ -1,6 +1,4 @@
-﻿using DesignPattern.Creational.Builder;
-
-namespace DesignPattern.Creational.Singleton;
+﻿namespace DesignPattern.Gof.Creational.Singleton;
 
 public class AppSettings
 {

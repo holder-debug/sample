@@ -1,4 +1,4 @@
-﻿namespace Gof.Behavioral.Strategy;
+﻿namespace DesignPattern.Gof.Behavioral.Strategy;
 
 public interface IShippingStrategy
 {
