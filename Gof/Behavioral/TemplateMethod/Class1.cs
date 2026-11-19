@@ -68,12 +68,12 @@ public class ExcelReportGenerator : ReportGenerator
 
 
 
-ReportGenerator report = new PdfReportGenerator();
+//ReportGenerator report = new PdfReportGenerator();
 
-report.Generate();
+//report.Generate();
 
-Console.WriteLine("--------------");
+//Console.WriteLine("--------------");
 
-report = new ExcelReportGenerator();
+//report = new ExcelReportGenerator();
 
-report.Generate();
+//report.Generate();
