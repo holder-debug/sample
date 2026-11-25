@@ -14,7 +14,6 @@
     <Folder Include="Gof_Behavioral\Iterator\" />
     <Folder Include="Gof_Behavioral\Mediator\" />
     <Folder Include="Gof_Behavioral\Memento\" />
-    <Folder Include="Gof_Behavioral\Observer\" />
     <Folder Include="Gof_Behavioral\State\" />
     <Folder Include="Gof_Structural\Bridge\" />
     <Folder Include="Gof_Structural\Composite\" />
